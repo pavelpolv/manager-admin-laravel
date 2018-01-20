@@ -2,7 +2,7 @@
     "name": "pavelpolv/manager-admin-laravel",
     "description": "User manager for Laravel",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Pavel Polyakov",
