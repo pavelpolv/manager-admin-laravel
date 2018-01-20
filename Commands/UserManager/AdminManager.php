@@ -122,7 +122,7 @@ class AdminManager extends Manager
      */
     private function getUserByEmail($email)
     {
-        return User::emailFilter($email)->first();
+        return User::WhereEmail($email)->first();
 
     }
 
