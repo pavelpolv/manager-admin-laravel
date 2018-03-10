@@ -27,7 +27,7 @@ $ composer require pavelpolv/manager-admin-laravel
 
 Добавьте в массив $commands файла /app/Console/Commands
 
-`manager:admin'=>Commands\UserManager\AdminManager::class,`
+`'manager:admin'=>Commands\UserManager\AdminManager::class,`
 
 ## Использование
 
