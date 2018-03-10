@@ -25,6 +25,10 @@ $ composer require pavelpolv/manager-admin-laravel
 
 `php artisan vendor:publish --provider="Pavelpolv\ManagerAdminLaravel\ManagerAdminLaravelProvider"`
 
+Добавьте в массив $commands файла /app/Console/Commands
+
+`manager:admin'=>Commands\UserManager\AdminManager::class,`
+
 ## Использование
 
 Выполните в папке проекта
